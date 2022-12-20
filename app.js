@@ -4,7 +4,7 @@ const app = express()
 const mongoose = require('mongoose') 
 const PORT = 5000;
 
-const {MONGOURI} = require('./config/key')
+const {MONGOURI} = require('./config/dev')
 
 
 mongoose.set('strictQuery', true)
